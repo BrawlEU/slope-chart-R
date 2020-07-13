@@ -8,27 +8,13 @@ library(ggrepel)
 # Prepares the data ------------------------------------------------------------
 # Create the dataframe to use for the slope chart, based on a FIRST value and a SECOND value
 
-# ALL
-#regions  = c("North East", "Northern Ireland", "Wales", "Yorkshire & H", "East Midlands","West Midlands","Scotland",
-"South West", "North West", "London", "East of England", "South East")
 
-# GOVERD Regions
+# Regions
 regions  = c("Northern Ireland", "Wales", "Yorkshire & H", "Scotland",
               "South West", "North West", "London", "East of England", "South East")
 
-# ALL
-#First = c(553,561,600,1192,1719,1778,2092,2297,3148,3591,5107,6978)
-#Last  = c(629,647,716,1401,2074,2782,2331,2159,3165,4899,5662,6665)
 
-# BERD
-#First = c(279,380,272,593,1236,1382,752,1466,2395,1206,3926,4940)
-#Last  = c(302,481,435,750,1655,2303,1072,1500,2346,2296,4393,4693)
-
-# HERD
-#First = c(250,159,288,534,368,389,1026,384,620,1879,682,1099)
-#Last  = c(241,152,266,531,344,407,1061,409,654,1943,758,1269)
-
-# GOVERD
+# Values
 First = c(23,38,61,302,435,91,350,225,907)
 Last  = c(14,15,116,163,229,164,451,223,606)
 
