@@ -1,4 +1,4 @@
-<h2>**R Slope Chart**</h2>
+<h2>R Slope Chart</h2>
 
 Creates a slope chart with start and end values. Labels do not overlap, with small arrows to assist when labels moved slightly.
 
